@@ -1,0 +1,22 @@
+jobs:
+  - script: |
+      pipelineJob('HelloWorld/Backend') {
+          description('Backend Hello World Pipeline')
+          properties {
+              disableConcurrentBuilds()
+          }
+          definition {
+              cpsScm {
+                  scm {
+                      git {
+                          remote {
+                              url 'https://github.com/mamrezb/jenkinsmaster-backend-hello-world.git'
+                          }
+                          branches 'main'
+                          extensions {}
+                      }
+                  }
+                  scriptPath 'Jenkinsfile'
+              }
+          }
+      }

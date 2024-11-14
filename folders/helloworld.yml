@@ -1,0 +1,5 @@
+jobs:
+  - script: |
+      folder('HelloWorld') {
+          description('Hello World Folder')
+      }
