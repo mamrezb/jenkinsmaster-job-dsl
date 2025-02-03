@@ -42,12 +42,12 @@ A logical container in Jenkins for organizing example jobs.
 - **Backend Pipeline** (`HelloWorld/Backend`)
   - A pipeline job for backend applications.
   - Uses a Git repository with a `Jenkinsfile` for pipeline definition.
-  - Repository URL: [jenkinsmaster-backend-hello-world](https://github.com/mamrezb/jenkinsmaster-backend-hello-world)
+  - Repository URL: [jenkinsmaster-backend-hello-world](https://github.com/mamrezb/jenkinsmaster-backend-helloworld)
 
 - **Frontend Pipeline** (`HelloWorld/Frontend`)
   - A pipeline job for frontend applications.
   - Uses a Git repository with a `Jenkinsfile` for pipeline definition.
-  - Repository URL: [jenkinsmaster-frontend-hello-world](https://github.com/mamrezb/jenkinsmaster-frontend-hello-world)
+  - Repository URL: [jenkinsmaster-frontend-hello-world](https://github.com/mamrezb/jenkinsmaster-frontend-helloworld)
 
 ## Contributing
 

@@ -10,7 +10,7 @@ jobs:
                   scm {
                       git {
                           remote {
-                              url 'https://github.com/mamrezb/jenkinsmaster-backend-hello-world.git'
+                              url 'https://github.com/mamrezb/jenkinsmaster-backend-helloworld.git'
                           }
                           branches 'main'
                           extensions {}
